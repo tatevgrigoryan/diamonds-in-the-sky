@@ -1,9 +1,11 @@
-import './styles/global.css';
+import Process from './Process/Process';
+import Headline from './Headline/Headline';
 
 function App() {
   return (
     <div className="App">
-      <h1>hello world</h1>
+      <Headline title="Expertise" />
+      <Process />
     </div>
   );
 }
