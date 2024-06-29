@@ -6,9 +6,16 @@ import './headline.css';
 const Heading = ({  title }) => {
 
     return (
-        <h2 className="headline">
-            {title}
-        </h2>
+       <div className="heading">
+           <div className="container">
+               <h2 className="headline">
+                   {title}
+               </h2>
+           </div>
+           <div className="line">
+
+           </div>
+       </div>
     );
 };
 

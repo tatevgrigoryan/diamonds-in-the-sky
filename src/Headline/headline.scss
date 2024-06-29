@@ -1,19 +1,31 @@
-h2.headline {
-  font-size: 48px;
-  line-height: 72px;
-  font-weight: 600;
-  text-align: left;
-  color: #ffffff;
+.heading {
   position: relative;
-  padding-left: 50px;
-  &:after {
-    content:"";
-    display: block;
+  h2.headline {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    margin: 0;
+    margin-top: 30px;
+    @media screen and (min-width: 495px) {
+      font-size: 48px;
+      line-height: 72px;
+      text-align: left;
+    }
+  }
+  .line {
+    display: none;
     position: absolute;
-    left: 0;
     background-color: #F8F8F8;
-    width: 100%;
+    width: 92%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     height: 1px;
+    @media screen and (min-width: 495px) {
+      display: block;
+    }
   }
 }
-

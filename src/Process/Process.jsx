@@ -1,5 +1,4 @@
 import './process.css';
-import Headline from "../Headline/Headline";
 import Swiper from "../Swiper/Swiper";
 
 function Process() {

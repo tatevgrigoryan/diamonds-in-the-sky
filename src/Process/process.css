@@ -1,36 +1,54 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #171C1F;
   color: #ffffff;
   border: none;
 }
 
 .process {
-  padding: 20px;
   max-width: 1250px;
   margin: 0 auto;
 }
 .process h2 {
-  font-size: 48px;
-  line-height: 72px;
+  font-size: 18px;
+  line-height: 21px;
   font-weight: 600;
   text-align: center;
   color: #ffffff;
+  margin-top: 30px;
+}
+@media screen and (min-width: 495px) {
+  .process h2 {
+    font-size: 48px;
+    line-height: 72px;
+  }
 }
 .process p {
-  font-size: 24px;
-  line-height: 40px;
+  font-size: 16px;
+  line-height: 24px;
   font-weight: 400;
   text-align: center;
   color: #ffffff;
   padding-right: 20px;
 }
+@media screen and (min-width: 495px) {
+  .process p {
+    font-size: 24px;
+    line-height: 40px;
+  }
+}
 .process p.small {
   text-align: left;
-  font-size: 18px;
+  font-size: 10px;
   font-weight: 400;
-  line-height: 24px;
+  color: #ffffff;
+  line-height: 13px;
+}
+@media screen and (min-width: 495px) {
+  .process p.small {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
 
-/*# sourceMappingURL=process.css.map */
+/*# sourceMappingURL=location.css.map */

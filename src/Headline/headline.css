@@ -1,20 +1,37 @@
-h2.headline {
-  font-size: 48px;
-  line-height: 72px;
+.heading {
+  position: relative;
+}
+.heading h2.headline {
+  font-size: 32px;
+  line-height: 38px;
   font-weight: 600;
-  text-align: left;
+  text-align: center;
   color: #ffffff;
   position: relative;
-  padding-left: 50px;
+  margin: 0;
+  margin-top: 30px;
 }
-h2.headline:after {
-  content: "";
-  display: block;
+@media screen and (min-width: 495px) {
+  .heading h2.headline {
+    font-size: 48px;
+    line-height: 72px;
+    text-align: left;
+  }
+}
+.heading .line {
+  display: none;
   position: absolute;
-  left: 0;
   background-color: #F8F8F8;
-  width: 100%;
+  width: 92%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   height: 1px;
+}
+@media screen and (min-width: 495px) {
+  .heading .line {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=headline.css.map */
