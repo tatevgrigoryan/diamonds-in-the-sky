@@ -6,6 +6,7 @@ import Product from "./Product/Product";
 import Career from "./Career/Career";
 import Location from "./Location/Location";
 import Gallery from "./Gallery/Gallery";
+import './styles/global.css';
 
 function App() {
     return (
