@@ -1,0 +1,37 @@
+.heading {
+  position: relative;
+}
+.heading h2.headline {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  margin: 0;
+  margin-top: 30px;
+}
+@media screen and (min-width: 495px) {
+  .heading h2.headline {
+    font-size: 48px;
+    line-height: 72px;
+    text-align: left;
+  }
+}
+.heading .line {
+  display: none;
+  position: absolute;
+  background-color: #F8F8F8;
+  width: 92%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 1px;
+}
+@media screen and (min-width: 495px) {
+  .heading .line {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=headline.css.map */
