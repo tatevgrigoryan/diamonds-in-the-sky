@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  border: none;
+}
+
+.contact {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20% 0;
+  min-height: 100vh;
+}
+.contact p {
+  padding-bottom: 20px;
+}
+.contact .form-input {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 767px) {
+  .contact .form-input {
+    width: 670px;
+  }
+}
+.contact .form-input input {
+  border: 1px solid #F8F8F8;
+  padding: 20px 8px 20px 24px;
+  color: #B2B2B2;
+  outline: none;
+  display: block;
+  width: 100%;
+  text-align: left;
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=contact.css.map */

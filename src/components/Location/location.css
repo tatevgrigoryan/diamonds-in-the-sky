@@ -13,12 +13,7 @@
   margin-bottom: 20px;
 }
 .location-item p {
-  font-size: 12px;
-  line-height: 14px;
-  font-weight: 400;
   color: #667085;
-  text-align: center;
-  margin-bottom: 10px;
 }
 .location-item p:first-child {
   color: #344054;
