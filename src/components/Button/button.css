@@ -1,0 +1,30 @@
+.button {
+  color: #171c1f;
+}
+.button a {
+  background: #f8f8f8;
+  color: #171c1f;
+  padding: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+}
+.button img {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+@media (min-width: 768px) {
+  .button a {
+    display: inline;
+    padding: 12px 4px 16px 32px;
+  }
+  .button img {
+    margin-left: 8px;
+    position: unset;
+  }
+} /*# sourceMappingURL=button.css.map */
