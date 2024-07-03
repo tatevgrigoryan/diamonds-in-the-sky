@@ -1,0 +1,34 @@
+.button {
+  color: #171c1f;
+
+  a {
+    background: #f8f8f8;
+    color: #171c1f;
+    padding: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  img {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+  }
+
+  @media (min-width: 768px) {
+    a {
+      display: inline;
+      padding: 12px 4px 16px 32px;
+    }
+
+    img {
+      margin-left: 8px;
+      position: unset;
+    }
+  }
+}
