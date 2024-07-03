@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  color: #ffffff;
+  border: none;
+}
+.career {
+  padding-bottom: 30px;
+  img {
+    width: 100%;
+  }
+  p {
+    text-align: left;
+    padding: 20px 0;
+  }
+  .nav-tabs {
+    border: none;
+    .nav-item {
+      button {
+        color: #ffffff;
+        border: none;
+        isolation:revert;
+        padding: 0;
+        margin-right: 20px;
+
+        &:hover,
+        &:focus,
+        &:visited,
+        &:focus-within {
+          border:none;
+          transition: none;
+          isolation:revert;
+        }
+        &.active {
+          border:none;
+          transition: none;
+          background: none;
+          border-bottom: 1px solid #ffffff;
+        }
+      }
+    }
+  }
+  .tab-content {
+    div {
+      text-align: left;
+      padding-top: 10px;
+    }
+  }
+}
+

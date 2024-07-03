@@ -1,8 +1,13 @@
 body {
+  background-color: #171C1F !important;
+}
+
+body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
   background-color: #171c1f;
   color: #ffffff;
 }
