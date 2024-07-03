@@ -3,38 +3,13 @@ import PropTypes from 'prop-types';
 import './headline.css';
 
 
-const Heading = ({ title, attr }) => {
-  return (
-    <div className="heading row align-items-center">
-      <h2 className="headline col-md-8 col-12">{title}</h2>
-      <div className="attribute col-md-4 col-12">{attr}</div>
-    </div>
-  );
-};
-
-Heading.propTypes = {
-  level: PropTypes.number,
-  title: PropTypes.string,
-  children: PropTypes.node,
-  attr: PropTypes.node,
-};
-
-Heading.default = {
-  title: '',
-
-const Heading = ({  title }) => {
-
+let Heading = ({title, attr}) => {
     return (
-       <div className="heading">
-           <div className="container">
-               <h2 className="headline">
-                   {title}
-               </h2>
-           </div>
-           <div className="line">
-
-           </div>
-       </div>
+        <div className="heading row align-items-center">
+            <h2 className="headline col-md-8 col-12">{title}</h2>
+            <div className="attribute col-md-4 col-12">{attr}</div>
+            <div className="line"></div>
+        </div>
     );
 };
 
@@ -42,11 +17,8 @@ Heading.propTypes = {
     level: PropTypes.number,
     title: PropTypes.string,
     children: PropTypes.node,
-};
-
-Heading.defaultProps = {
-    title: '',
-
+    attr: PropTypes.node,
 };
 
 export default Heading;
+

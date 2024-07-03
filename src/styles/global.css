@@ -5,10 +5,14 @@
 }
 
 h1 {
-  font-size: 104px;
+  font-size: 48px;
   font-weight: 700;
-  line-height: 116px;
+  line-height: 60px;
   color: #f8f8f8;
+  @media screen and (min-width: 495px) {
+    font-size: 104px;
+    font-weight: 700;
+  }
 }
 
 h2 {
@@ -18,13 +22,12 @@ h2 {
   text-align: center;
   color: #ffffff;
   margin-top: 30px;
-}
-@media screen and (min-width: 495px) {
-  h2 {
+  @media screen and (min-width: 495px) {
     font-size: 48px;
     line-height: 72px;
   }
 }
+
 
 h3 {
   font-size: 25px;
@@ -43,7 +46,7 @@ p {
 
 p.small {
   text-align: left;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 24px;
 }
@@ -54,25 +57,28 @@ h6 {
   line-height: 22px;
   color: #f8f8f8;
 
-@media screen and (min-width: 495px) {
-  p {
-    font-size: 24px;
-    line-height: 40px;
+  @media screen and (min-width: 495px) {
+    p {
+      font-size: 24px;
+      line-height: 40px;
+    }
   }
-}
-p.small {
-  text-align: left;
-  font-size: 10px;
-  font-weight: 400;
-  color: #ffffff;
-  line-height: 13px;
-}
-@media screen and (min-width: 495px) {
+
   p.small {
-    font-size: 18px;
-    line-height: 24px;
+    text-align: left;
+    font-size: 10px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 13px;
   }
- 
+
+  @media screen and (min-width: 495px) {
+    p.small {
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+  }
 }
 
 /*# sourceMappingURL=global.css.map */

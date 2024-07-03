@@ -1,44 +1,11 @@
 .heading {
   padding: 0 40px;
   position: relative;
+
   h2.headline {
     font-size: 32px;
     line-height: 38px;
     font-weight: 600;
-    text-align: left;
-    color: #ffffff;
-    position: relative;
-    padding-left: 20px;
-  }
-
-  &:after {
-    content: '';
-    display: block;
-    background-color: #f8f8f8;
-    width: 100%;
-    height: 1px;
-    margin-top: 10px;
-  }
-
-  .attribute {
-    padding-right: 20px;
-  }
-
-  @media (min-width: 768px) {
-    .attribute {
-      text-align: end;
-    }
-  }
-
-  @media (min-width: 1200px) {
-    h2.headline {
-      font-size: 48px;
-      line-height: 72px;
-      padding-left: 120px;
-    }
-
-    .attribute {
-      padding-right: 120px;
     text-align: center;
     color: #ffffff;
     position: relative;
@@ -50,17 +17,25 @@
       text-align: left;
     }
   }
+
   .line {
     display: none;
     position: absolute;
     background-color: #F8F8F8;
-    width: 92%;
+    width: 100%;
     left: 0;
     right: 0;
+    bottom: 0;
     margin: 0 auto;
     height: 1px;
     @media screen and (min-width: 495px) {
       display: block;
+    }
+  }
+
+  .attribute {
+    .button {
+      float: right;
     }
   }
 }

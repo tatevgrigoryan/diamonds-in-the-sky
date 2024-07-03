@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Navbar from '../Navbar/Navbar';
+import Navbar from '../Navigation/Navigation';
 import './header.css';
 import useGetWindowSize from '../../hooks/usaGetWindowSize';
 

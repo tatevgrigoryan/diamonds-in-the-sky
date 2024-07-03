@@ -1,9 +1,9 @@
 import React, { memo } from 'react';
 import NAVBAR_DATA from '../../consts/navbarItems';
-import './navbar.css';
+import './navigation.css';
 import useGetWindowSize from '../../hooks/usaGetWindowSize';
 
-const Navbar = ({ isOpen }) => {
+const Navigation = ({ isOpen }) => {
   const { width } = useGetWindowSize();
   const isMobile = width <= 992;
 
@@ -33,4 +33,4 @@ const Navbar = ({ isOpen }) => {
   );
 };
 
-export default memo(Navbar);
+export default memo(Navigation);
