@@ -1,7 +1,8 @@
-.button {
+.custom-button {
   color: #171c1f;
+  margin: 16px 0;
 }
-.button a {
+.custom-button a {
   background: #f8f8f8;
   color: #171c1f;
   padding: 12px;
@@ -13,17 +14,19 @@
   position: relative;
   margin: 0 auto;
 }
-.button img {
+.custom-button img {
   position: absolute;
   top: 4px;
   right: 4px;
+  width: 40px;
+  height: 40px;
 }
 @media (min-width: 768px) {
-  .button a {
+  .custom-button a {
     display: inline;
     padding: 12px 4px 16px 32px;
   }
-  .button img {
+  .custom-button img {
     margin-left: 8px;
     position: unset;
   }

@@ -1,13 +1,30 @@
 .header {
-  padding: 0 40px;
-  position: relative;
+  position: fixed;
+  background-color: #171c1f;
+  top: 0;
+  right: 20px;
+  width: 100%;
+  z-index: 10;
+
+  .logo {
+    cursor: pointer;
+    text-decoration: none;
+  }
 
   h4 {
     font-size: 20px;
     line-height: 50px;
     font-weight: 600;
-    padding-left: 20px;
+    padding-left: 40px;
     color: #ffffff;
+    margin-bottom: 0;
+  }
+
+  .custom-nav {
+    position: absolute;
+    top: 50px;
+    background-color: #171c1f;
+    padding-left: 50px;
   }
 
   @media (min-width: 992px) {
@@ -22,9 +39,10 @@
     }
 
     .custom-nav {
-      position: absolute;
-      right: 60px;
-      top: 50px;
+      right: 40px;
+      left: auto;
+      top: 45px;
+      background: transparent;
     }
   }
 }

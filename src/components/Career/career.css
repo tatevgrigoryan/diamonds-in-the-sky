@@ -8,9 +8,6 @@
 .career {
   padding-bottom: 30px;
 }
-.career img {
-  width: 100%;
-}
 .career p {
   text-align: left;
   padding: 20px 0;
@@ -25,7 +22,10 @@
   padding: 0;
   margin-right: 20px;
 }
-.career .nav-tabs .nav-item button:hover, .career .nav-tabs .nav-item button:focus, .career .nav-tabs .nav-item button:visited, .career .nav-tabs .nav-item button:focus-within {
+.career .nav-tabs .nav-item button:hover,
+.career .nav-tabs .nav-item button:focus,
+.career .nav-tabs .nav-item button:visited,
+.career .nav-tabs .nav-item button:focus-within {
   border: none;
   transition: none;
   isolation: revert;
@@ -39,6 +39,4 @@
 .career .tab-content div {
   text-align: left;
   padding-top: 10px;
-}
-
-/*# sourceMappingURL=thankyou.css.map */
+} /*# sourceMappingURL=career.css.map */

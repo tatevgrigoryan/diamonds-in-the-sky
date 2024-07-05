@@ -1,8 +1,9 @@
 import './about.css';
+import Button from '../Button/Button';
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" name="about">
       <h2>About Us</h2>
       <p>
         We are a leading diamond processing factory based in Armenia, founded by
@@ -36,6 +37,9 @@ const About = () => {
             alt="crystal3"
           />
         </div>
+      </div>
+      <div className="row text-end mt-4">
+        <Button text="Contact us" url="/contact" />
       </div>
     </div>
   );

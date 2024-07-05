@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Button = ({ text, url }) => {
   return (
-    <div className="button">
+    <div className="custom-button">
       <a href={url} target="_blank">
         {text}
         <img src={`${process.env.PUBLIC_URL}/images/arrow.png`} alt="arrow" />

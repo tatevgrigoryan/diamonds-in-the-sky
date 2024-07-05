@@ -20,7 +20,7 @@
       button {
         color: #ffffff;
         border: none;
-        isolation:revert;
+        isolation: revert;
         padding: 0;
         margin-right: 20px;
 
@@ -28,12 +28,12 @@
         &:focus,
         &:visited,
         &:focus-within {
-          border:none;
+          border: none;
           transition: none;
-          isolation:revert;
+          isolation: revert;
         }
         &.active {
-          border:none;
+          border: none;
           transition: none;
           background: none;
           border-bottom: 1px solid #ffffff;
@@ -48,4 +48,3 @@
     }
   }
 }
-

@@ -1,5 +1,6 @@
-.button {
+.custom-button {
   color: #171c1f;
+  margin: 16px 0;
 
   a {
     background: #f8f8f8;
@@ -18,6 +19,8 @@
     position: absolute;
     top: 4px;
     right: 4px;
+    width: 40px;
+    height: 40px;
   }
 
   @media (min-width: 768px) {
