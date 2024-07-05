@@ -26,7 +26,7 @@
 }
 @media (min-width: 992px) {
   .header:after {
-    content: '';
+    content: "";
     display: block;
     background-color: #f8f8f8;
     width: 100%;
@@ -40,4 +40,6 @@
     top: 45px;
     background: transparent;
   }
-} /*# sourceMappingURL=header.css.map */
+}
+
+/*# sourceMappingURL=header.css.map */

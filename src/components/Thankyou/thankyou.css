@@ -25,10 +25,7 @@
   padding: 0;
   margin-right: 20px;
 }
-.career .nav-tabs .nav-item button:hover,
-.career .nav-tabs .nav-item button:focus,
-.career .nav-tabs .nav-item button:visited,
-.career .nav-tabs .nav-item button:focus-within {
+.career .nav-tabs .nav-item button:hover, .career .nav-tabs .nav-item button:focus, .career .nav-tabs .nav-item button:visited, .career .nav-tabs .nav-item button:focus-within {
   border: none;
   transition: none;
   isolation: revert;
