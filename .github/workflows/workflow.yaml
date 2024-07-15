@@ -36,4 +36,4 @@ jobs:
             
               cd ~/home
               docker build -t diamond:latest .
-              docker run -d --name myapp -p 4000:4000 myapp:latest
+              docker run -d --name diamond -p 4000:4000 diamond:latest
