@@ -30,11 +30,11 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-          docker stop diamond || true
-          docker rm diamond || true
-          docker rmi diamond:latest || true
-          mkdir -p ~/diamond
-          rsync -avz --delete --exclude='.git' ./ ~/diamond/
-          cd ~/diamond
-          docker build -t diamond:latest .
-          docker run -d --name myapp -p 4000:4000 myapp:latest
+              docker stop diamond || true
+              docker rm diamond || true
+              docker rmi diamond:latest || true
+              mkdir -p ~/diamond
+              rsync -avz --delete --exclude='.git' ./ ~/diamond/
+              cd ~/diamond
+              docker build -t diamond:latest .
+              docker run -d --name myapp -p 4000:4000 myapp:latest
