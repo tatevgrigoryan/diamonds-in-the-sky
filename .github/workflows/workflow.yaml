@@ -33,8 +33,7 @@ jobs:
               docker stop diamond || true
               docker rm diamond || true
               docker rmi diamond:latest || true
-              mkdir -p ~/diamond
-              rsync -avz --delete --exclude='.git' ./ ~/diamond/
-              cd ~/diamond
+            
+              cd ~/home
               docker build -t diamond:latest .
               docker run -d --name myapp -p 4000:4000 myapp:latest
