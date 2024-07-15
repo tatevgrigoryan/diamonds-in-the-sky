@@ -32,19 +32,9 @@ jobs:
           script: |
           docker stop diamond || true
           docker rm diamond || true
-          
-          # Remove the old image if it exists
           docker rmi diamond:latest || true
-          
-          # Create a directory for the application code
           mkdir -p ~/diamond
-          
-          # Sync the application code to the EC2 instance
           rsync -avz --delete --exclude='.git' ./ ~/diamond/
-          
-          # Build the Docker image
           cd ~/diamond
           docker build -t diamond:latest .
-          
-          # Run the Docker container
           docker run -d --name myapp -p 4000:4000 myapp:latest
